@@ -179,6 +179,9 @@ docker compose exec -it archaeologist sh
 cli free-bond -w 10
 exit
 ```
+	
+### Cek Domain
+Masukan domain name kalian kesini https://www.nslookup.io/website-to-ip-lookup . Jika sudah sama dengan IP VPS berarti benar
 
 
 
