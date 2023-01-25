@@ -125,7 +125,7 @@ COMPOSE_PROFILES=service docker compose up -d
 ```
 
 ### Jika mengubah domain setelah Resgister
-```
+
 - Update Archaeologist dengan deposit 1 Sacro
 ```
 docker compose exec -it archaeologist sh
