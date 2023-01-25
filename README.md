@@ -81,7 +81,7 @@ COMPOSE_PROFILES=register docker compose run register
 ```
 Y, Enter
 
-### Lalu masukan nominal ( Kalau bisa 100 dan 100, lebih gpp )
+### Lalu masukan nominal ( Digging Fee 1 - 5 )
 <p align="center"><img height="auto" height="auto" src="https://user-images.githubusercontent.com/98658943/214579815-7a582490-62a1-44ba-a5f5-7ac551206eac.png"</p>
 
 ### Setelah selesai Register
@@ -141,13 +141,13 @@ COMPOSE_PROFILES=service docker compose up -d
 
 
 ## CLI ( Command Line Interface )
-#### Update Digging ke 10
+#### Update Digging ke 5
 ```
 docker compose exec -it archaeologist sh
-cli update -d 10
+cli update -d 5
 exit
 ```
-10 bisa diubah berapapun
+5 bisa diubah berapapun
 
 #### Menambah Free Bond ke 100
 ```
