@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/WSHTkvpcbd5Un2pklG/giphy.gif" height="338" width="600"/>
+  <img src="https://media.giphy.com/media/aXE4aGVPDs1pGcm0y4/giphy.gif" height="338" width="600"/>
 </div>
 
 <h1 align="center">Sarcophagus</h1>
