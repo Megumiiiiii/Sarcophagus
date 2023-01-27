@@ -129,6 +129,8 @@ COMPOSE_PROFILES=service docker compose up -d
 ```
 docker compose exec -it archaeologist sh
 cli update -f 1
+```
+```
 exit
 ```
 
@@ -144,6 +146,8 @@ COMPOSE_PROFILES=service docker compose up -d
 ```
 docker compose exec -it archaeologist sh
 cli update -d 5
+```
+```
 exit
 ```
 5 bisa diubah berapapun
@@ -152,6 +156,8 @@ exit
 ```
 docker compose exec -it archaeologist sh
 cli update -f 100
+```
+```
 exit
 ```
 <p align="center"><img height="auto" height="auto" src="https://user-images.githubusercontent.com/98658943/214585483-bd61c8a2-a6bc-41b5-b24f-fe73dd4cf41b.png"</p>
@@ -162,6 +168,8 @@ exit
 ```
 docker compose exec -it archaeologist sh
 cli view -p
+```
+```
 exit
 ```
 
@@ -169,6 +177,8 @@ exit
 ```
 docker compose exec -it archaeologist sh
 cli claim
+```
+```
 exit
 ```
 
@@ -176,6 +186,8 @@ exit
 ```
 docker compose exec -it archaeologist sh
 cli free-bond -w 10
+```
+```
 exit
 ```
 	
