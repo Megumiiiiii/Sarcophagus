@@ -142,7 +142,7 @@ COMPOSE_PROFILES=service docker compose up -d
 
 
 ## CLI ( Command Line Interface )
-#### Update Digging ke 5
+#### Update Digging Fee ke 5
 ```
 docker compose exec -it archaeologist sh
 cli update -d 5
@@ -152,7 +152,7 @@ exit
 ```
 5 bisa diubah berapapun
 
-#### Menambah Free Bond ke 100
+#### Menambah Free Bond 100
 ```
 docker compose exec -it archaeologist sh
 cli update -f 100
