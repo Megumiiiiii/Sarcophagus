@@ -85,9 +85,8 @@ Y, Enter
 <p align="center"><img height="auto" height="auto" src="https://user-images.githubusercontent.com/98658943/215102620-1ed14a2c-8f11-4d1d-b7d4-e80aecfec100.png"</p>
 
 ### Setelah selesai Register
-<p align="center"><img height="auto" height="auto" src="https://user-images.githubusercontent.com/98658943/214580545-46e1c41f-1bba-4a95-8190-7e77b6be89d6.png"</p>
 
-Jalankan Node nya
+#### Jalankan Node nya
 ```
 COMPOSE_PROFILES=service docker compose up -d
 ```
