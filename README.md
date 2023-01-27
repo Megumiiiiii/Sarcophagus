@@ -81,8 +81,8 @@ COMPOSE_PROFILES=register docker compose run register
 ```
 Y, Enter
 
-### Lalu masukan nominal ( Digging Fee 1 - 5 )
-<p align="center"><img height="auto" height="auto" src="https://user-images.githubusercontent.com/98658943/214579815-7a582490-62a1-44ba-a5f5-7ac551206eac.png"</p>
+### Lalu masukan nominal ( Digging Fee 1 - 5 Free Bond lebih dari 100 )
+<p align="center"><img height="auto" height="auto" src="https://user-images.githubusercontent.com/98658943/215102620-1ed14a2c-8f11-4d1d-b7d4-e80aecfec100.png"</p>
 
 ### Setelah selesai Register
 <p align="center"><img height="auto" height="auto" src="https://user-images.githubusercontent.com/98658943/214580545-46e1c41f-1bba-4a95-8190-7e77b6be89d6.png"</p>
