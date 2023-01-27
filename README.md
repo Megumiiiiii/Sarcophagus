@@ -184,4 +184,6 @@ Masukan domain name kalian kesini https://www.nslookup.io/website-to-ip-lookup .
 
 
 
-
+## Daftar Peserta
+- https://sarcopahgus.notion.site/Archaeologist-Testnet-Participant-Roster-e19dedd7d00346b2a20dce3aa46ab68b
+- https://dev-sarcophagus.netlify.app/archaeologists
