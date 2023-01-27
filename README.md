@@ -107,8 +107,8 @@ Lalu
 docker logs -f ContainerIDMu
 ```
 Output yang benar
-<p align="center"><img height="auto" height="auto" src="https://user-images.githubusercontent.com/98658943/214584736-bc77a5cb-7197-4c2e-ae1d-3072d654466a.png"</p>
-
+<p align="center"><img height="auto" height="auto" src="https://user-images.githubusercontent.com/98658943/215103568-73db76de-ec4f-484e-9325-fc8a23ffb9d2.png"</p>
+	
 
 ### Jika ada update di waktu mendatang
 ```
