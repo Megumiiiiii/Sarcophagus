@@ -36,7 +36,7 @@ sudo apt-get update && sudo apt install jq git && sudo apt install apt-transport
 
 ## Open port
 ```
-sudo ufw allow 443/tcp; sudo ufw allow 80/tcp; sudo ufw enable
+sudo ufw allow ssh; sudo ufw allow 443/tcp; sudo ufw allow 80/tcp; sudo ufw enable
 ```
 
 ## Clone Repo
