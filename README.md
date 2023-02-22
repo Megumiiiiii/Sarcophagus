@@ -150,7 +150,7 @@ COMPOSE_PROFILES=service docker compose up -d
 #### Update Digging Fee ke 5
 ```
 docker compose exec -it archaeologist sh
-cli update -d 5
+cli update -d 0.000000393411985292
 ```
 ```
 exit
