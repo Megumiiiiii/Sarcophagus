@@ -4,6 +4,7 @@
 
 <h1 align="center">Sarcophagus</h1>
 
+
 ![image](https://user-images.githubusercontent.com/98658943/214569281-4d9d3e0e-f1c5-4933-8559-07576ef885d7.png)
 
 ## Minimum Spek
