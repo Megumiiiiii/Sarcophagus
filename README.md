@@ -107,7 +107,7 @@ Untuk mendapatkan Private Key, kalian bisa import Mnemonic nya ke Metamask, lalu
 - Untuk mendapatkan Token bisa swap di Uniswap
 - Pergi ke https://app.uniswap.org/
 - Atau reward dari testnet, 1000 SARCO cukup
-- Swap Goerli ke Sarco. SC Sarco: `0x7697B462A7c4Ff5F8b55BDBC2F4076c2aF9cF51A`
+- SC Sarco: `0x7697B462A7c4Ff5F8b55BDBC2F4076c2aF9cF51A`
 
 ## Register
 ```
