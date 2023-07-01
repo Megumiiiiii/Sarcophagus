@@ -1,8 +1,27 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/aXE4aGVPDs1pGcm0y4/giphy.gif" height="338" width="600"/>
+<div align="center">
+ 
+# Sarcophagus
+
 </div>
 
-<h1 align="center">Sarcophagus</h1>
+<div align="center">
+
+[![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/Megumiiiiii)
+
+ <img align="top" src="https://komarev.com/ghpvc/?username=Megumiiiiii&color=ff69b4&style=plastic&label=Visitors" height='35'/>
+
+</div>
+
+#
+
+<div align="center">
+  
+## ${\color{blue} NGESHARE \space DI \space CHANNEL, \space APA \space COPAS \space SERTAIN \space SUMBER \space SU}$
+
+### ${\color{cyan} DIKIRA \space BIKIN \space GINIAN \space GAK \space PERLU \space USAHA \space APA}$ 
+
+</div>
+
 
 
 ![image](https://user-images.githubusercontent.com/98658943/214569281-4d9d3e0e-f1c5-4933-8559-07576ef885d7.png)
@@ -28,58 +47,67 @@ Garapan ini perlu domain pribadi seperti .com .net .id etc. Kalian bisa beli di 
 - Simpan
   
 ## Install segala keperluan
-```
+```bash
   sudo apt update; sudo apt upgrade
 ```
-```
+```bash
 sudo apt-get update && sudo apt install jq git && sudo apt install apt-transport-https ca-certificates curl software-properties-common -y && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin && sudo apt-get install docker-compose-plugin
 ```
 
 ## Open port
-```
+```bash
 sudo ufw allow ssh; sudo ufw allow 443/tcp; sudo ufw allow 80/tcp; sudo ufw enable
 ```
 
 ## Clone Repo
-```
+```bash
 git clone https://github.com/sarcophagus-org/quickstart-archaeologist
 cd quickstart-archaeologist
 ```
 	
 ## Mulai
 ### Membuat file `.env`
-```
+```bash
 cp .env.example .env
 ```
 
 ### Generate Mnemonic Pharse
-```
+```bash
 COMPOSE_PROFILES=seed docker compose run seed-gen
 ```
 *BACKUP*
 
+#### Atau lanjut menggunakan pharse dari testnet
+
 ### Membuat blank file peer ID
-```
+
+```bash
 touch peer-id.json
 ```
 
-### Edit file .env
+Jika masih ada peer-ID dari testnet, hapus dulu
+
+```bash
+rm peer-id.json
 ```
+
+
+### Edit file .env
+```bash
 nano .env
 ```
 Isi dengan data kalian
 <p align="center"><img height="auto" height="auto" src="https://user-images.githubusercontent.com/98658943/214577366-9b373fe5-d2c5-4d78-b86e-9038a2dea585.png"</p>
 
-Untuk mendapatkan Private Key, kalian bisa import Mnemonic nya ke Metamask, lalu lihat PrivKey dari sana. Dan untuk RPC Provider bisa dari Alchemy, silhakan buat APP Goerli dan ambil RPC URL nya.
-<p align="center"><img height="auto" height="auto" src="https://user-images.githubusercontent.com/98658943/214587355-e545b4ff-8207-484b-aa5e-172aa0b52d9a.png"</p>
-
+Untuk mendapatkan Private Key, kalian bisa import Mnemonic nya ke Metamask, lalu lihat PrivKey dari sana. Dan untuk RPC Provider bisa dari Alchemy, silhakan buat APP Mainnet dan ambil RPC URL nya.
+<p align="center"><img height="auto" height="auto" src="https://github.com/Megumiiiiii/Sarcophagus/assets/98658943/0e9ac62c-9bf2-4b38-a3bb-5296085fa98c"</p>
 
 
 ## Token Sacro
 - Untuk mendapatkan Token bisa swap di Uniswap
-- Kirim Goerli ke Wallet yang di generate tadi
-- Pergi ke https://app.uniswap.org/ 
-- Swap Goerli ke Sarco. SC Sarco: `0x4633b43990b41B57b3678c6F3Ac35bA75C3D8436`
+- Pergi ke https://app.uniswap.org/
+- Atau reward dari testnet, 1000 SARCO cukup
+- Swap Goerli ke Sarco. SC Sarco: `0x7697B462A7c4Ff5F8b55BDBC2F4076c2aF9cF51A`
 
 ## Register
 ```
@@ -87,10 +115,12 @@ COMPOSE_PROFILES=register docker compose run register
 ```
 Y, Enter
 
-### Lalu masukan nominal ( Digging Fee 1 - 5 Free Bond lebih dari 100 )
-<p align="center"><img height="auto" height="auto" src="https://user-images.githubusercontent.com/98658943/215102620-1ed14a2c-8f11-4d1d-b7d4-e80aecfec100.png"</p>
+### Lalu masukan nominal ( DiggingFee 100 - 500, CurseFee 300, dan FreeBond  1000 )
+<p align="center"><img height="auto" height="auto" src="https://github.com/Megumiiiiii/Sarcophagus/assets/98658943/cce8c4a4-3515-4861-8329-8ea0a451e699"</p>
 
-### Setelah selesai Register
+
+
+## Setelah selesai Register
 
 #### Jalankan Node nya
 ```
@@ -99,7 +129,7 @@ COMPOSE_PROFILES=service docker compose up -d
 
 # SUDAH
 
-## Command yang mungkin berguna
+## Command 
 
 ### Cek apakah node nya jalan pa ngga
 ```
@@ -148,15 +178,15 @@ COMPOSE_PROFILES=service docker compose up -d
 
 
 ## CLI ( Command Line Interface )
-#### Update Digging Fee ke 5
+#### Update Digging Fee ke 300
 ```
 docker compose exec -it archaeologist sh
-cli update -d 0.000000393411985292
+cli update -d 300
 ```
 ```
 exit
 ```
-5 bisa diubah berapapun
+300 bisa diubah berapapun
 
 #### Menambah Free Bond 100
 ```
@@ -200,8 +230,3 @@ exit
 ### Cek Domain
 Masukan domain name kalian kesini https://www.nslookup.io/website-to-ip-lookup . Jika sudah sama dengan IP VPS berarti benar
 
-
-
-## Daftar Peserta
-- https://sarcopahgus.notion.site/Archaeologist-Testnet-Participant-Roster-e19dedd7d00346b2a20dce3aa46ab68b
-- https://dev-sarcophagus.netlify.app/archaeologists
