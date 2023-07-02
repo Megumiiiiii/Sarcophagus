@@ -16,7 +16,7 @@
 
 <div align="center">
   
-## ${\color{blue} NGESHARE \space DI \space CHANNEL, \space APA \space COPAS \space SERTAIN \space SUMBER \space SU}$
+## ${\color{blue} COPAS \space SERTAIN \space SUMBER \space SU}$
 
 ### ${\color{cyan} DIKIRA \space BIKIN \space GINIAN \space GAK \space PERLU \space USAHA \space APA}$ 
 
