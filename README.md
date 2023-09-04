@@ -172,8 +172,7 @@ exit
 
 - Lalu Restart
 ```
-COMPOSE_PROFILES=service docker compose stop
-COMPOSE_PROFILES=service docker compose up -d
+COMPOSE_PROFILES=service docker compose restart
 ```
 
 
